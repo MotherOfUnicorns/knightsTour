@@ -110,7 +110,7 @@ class Draw():
         plt.xlim(-1, 8)
         plt.ylim(-1, 8)
         plt.axis('equal')
-        plt.pause(.05)
+        plt.pause(.5)
 
     def draw_tour(self):
         '''tours through the board'''
